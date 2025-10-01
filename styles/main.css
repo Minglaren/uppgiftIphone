@@ -1,0 +1,29 @@
+.header {
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+}
+
+.header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+max-width: 1600px;
+margin: 0 auto;
+}
+
+.logo-silicon img {
+    height: 40px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+}
+.switch-mode img {
+    margin-right: 12px;
+   
+}
+
+.sign-btn a:hover {
+opacity: 0.4;
+}
