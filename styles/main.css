@@ -3,12 +3,12 @@
     padding: 16px 24px;
 }
 
-.header .container {
-display: flex;
-align-items: center;
-justify-content: space-between;
-max-width: 1600px;
-margin: 0 auto;
+.header .container {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .logo-silicon img {
@@ -26,4 +26,73 @@ margin: 0 auto;
 
 .sign-btn a:hover {
 opacity: 0.4;
+}
+
+.hero {
+    padding: 96px 24px 120px;
+    
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+    margin: 0 auto;
+    gap: 64px;
+}
+
+.hero-left {
+    flex: 1;
+    max-width: 560;
+    max-height: 360;
+}
+.hero-text h1 {
+font-size: 56px;
+font-weight: 800;
+margin: 0 0 20px 0;
+}
+
+.hero-text p {
+font-size: 18px;
+margin: 0 0 28px 0;
+}
+
+.hero-btns {
+display: flex;
+gap: 15px;
+}
+
+.hero-btns a:hover {
+    opacity: 0.4;
+}
+
+.hero-btns img {
+    height: 58px;
+}
+
+.hero-right {
+display: flex;
+align-items: flex-end;
+justify-content: flex-end;
+position: relative;
+min-height: 520px;
+}
+
+.iphone-front {
+    position: relative;
+    width: 360px;
+    z-index: 2;
+    transform: translate(10px);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.iphone-back {
+    position: absolute;
+    width: 350px;
+    z-index: 1;
+    left: -200px;
+    box-shadow: -30px 0px 72px rgba(0,0,0,0.30);
+    border-top-left-radius: 60px;
 }
