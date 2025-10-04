@@ -1,58 +1,62 @@
 <!DOCTYPE html>
-<html lang="sv">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iphone page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Page Light</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
+  <div class="headerhero">
     <header class="header">
-        <div class="container">
-            <div class="logo-silicon">
-                <img src="assets/logo silicon.svg" alt="logo silicon">
-            </div>
-
-            <div class="right-side">
-                <div class="switch-mode">
-                    <img src="assets/switch.png" alt="">
-                </div>
-
-                <div class="sign-btn">   
-                    <a href="#" class="btn">
-                    <img src="assets/btn sign.png" alt="">
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="header-logo">
+          <img src="img/Logo-silicon.png" alt="Logo Silicon" class="logo-silicon" />
+          <span class="logo-text">Silicon</span>
         </div>
+
+        <div class="header-switch">
+          <span class="mode-text">Dark mode</span>
+          <label class="switch">
+            <input type="checkbox" id="mode-toggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+
+        <div class="header-signinbtn">
+          <a href="#" class="signin-btn">
+            <img src="img/btnsign.png" alt=" Sign In" />
+          </a>
+        </div>
+      </div>
     </header>
 
     <section class="hero">
-        <div class="container">
+      <div class="container">
+        <div class="hero-left">
+          <h1 class="hero-title">Manage All Your<br />Money in One App</h1>
+          <p class="hero-text">
+            We offer you a new generation of the mobile banking.<br />
+            Save, spend & manage money in your pocket
+          </p>
 
-            <div class="hero-left">
-                <div class="hero-text">
-                    <h1>Manage All Your<br>Money in One App</h1>
-                    <p> We offer you a new generation of the mobile banking.<br>
-                        Save, spend & manage money in your pocket</p>
-                </div>
-
-                <div class="hero-btns">
-                    <a href="#"> <img src="assets/appstore.png" alt="App Store"></a>
-                    <a href="#"><img src="assets/googleplay.png" alt="Google Play"></a>
-                </div>
-            </div>
-
-            <div class="hero-right">
-                <img src="assets/iPhone 12 Pro front.png" alt="" class="iphone-front">
-                <img src="assets/iPhone 12 Pro back.png" alt="" class="iphone-back">
-            </div>
+          <div class="hero-btns">
+            <a href="#" class="btn-appstore"><img src="img/appstore.png" alt="appstore" /></a>
+            <a href="#" class="btn-googleplay"><img src="img/googleplay.png" alt="googleplay" /></a>
+          </div>
         </div>
+        
+        <div class="hero-right">
+          <div class="iphone-box">
+            <img src="img/iPhone-back.png" alt="iPhone back" class="iphone iphone-back" />
+            <img src="img/iPhone-front.png" alt="iPhone front" class="iphone iphone-front" />
+          </div>
+        </div>
+      </div>
     </section>
-    
+  </div>
 </body>
+
 </html>
